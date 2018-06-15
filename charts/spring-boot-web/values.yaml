@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.96.175.10:5000/mapsic-163-com/spring-boot-web
+  tag: 1.0.1
   pullPolicy: IfNotPresent
 service:
   name: spring-boot-web
